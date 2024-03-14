@@ -1,0 +1,184 @@
+/* Footer.css */
+
+footer {
+    background: #212529 !important;
+    height: auto;
+
+}
+
+#footer-container {
+    padding: 4rem;
+    padding-bottom: 0px;
+    color: #ffffff !important;
+}
+
+footer p {
+    color: #FFFFFF;
+    opacity: 9;
+}
+
+.footer-head-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+}
+
+.footer-body {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 48%;
+}
+
+.footer-body>span {
+    font-size: 3.5rem;
+    font-weight: 5;
+    color: #929191c2;
+}
+
+.footer-icons-body {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-body img:first-child {
+    width: 37%;
+}
+
+.footer-text p::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 4rem;
+    color: var(--bs-white);
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.footer-icons h2 {
+    color: var(--bs-white);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Center */
+.footer-center {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8rem;
+    border-top: 1px solid var(--bs-gray-700);
+    padding: 6rem 0px;
+}
+
+.footer-center-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-center-body h3 {
+    color: var(--bs-white);
+    margin-bottom: 1rem;
+}
+
+.footer-center-body h5 {
+    color: var(--bs-light);
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-center-body p {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+.footer-center-head {
+    margin-top: 4rem;
+}
+
+.footer-center a:hover {
+    color: var(--bs-success);
+    transition: all 0.2s ease;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-head {
+    border-top: 1px solid var(--bs-gray-700);
+    padding: 1.5rem 4rem;
+}
+
+.footer-bottom span {
+    color: var(--bs-success);
+}
+
+.footer-bottom p {
+    color: var(--bs-white);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-bottom-icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-bottom-icons a {
+    font-size: 1.2rem;
+}
+.footer-bottom-icons a:hover {
+   color: var(--bs-success);
+   transition: all 0.3 ease;
+}
+
+.footer-input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.button-inside-input{
+    position: absolute;
+    top: 0;
+    left: 170px;
+    height: 100%;
+    width: 3rem;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color:  rgb(197, 255, 197);
+}
+.button-inside-input:nth-child(2){
+    font-size: 1.5rem;
+    color: var(--bs-success);
+}
+
+.footer-input-field {
+    min-height: 46px;
+    padding-left: 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: var(--bs-dark);
+    background-color: var(--bs-light);
+    border-radius: 0.25rem;
+}

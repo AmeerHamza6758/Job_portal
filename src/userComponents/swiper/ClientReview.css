@@ -1,0 +1,88 @@
+.main-container {
+  width: 100%;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  /* width: 90%; */
+}
+
+/* Carasouel */
+.owl-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%!important;
+  height: 30%!important;
+  text-align: start;
+}
+
+/* PAgination dots */
+.owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  margin-top: 2.5rem !important;
+  background-color: var(--bs-success)!important;
+}
+
+.owl-carousel .last-section img {
+  display: block;
+  width: 4rem;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  line-height: 1.6rem;
+}
+
+.testimonial-item span {
+  font-size: 2rem;
+  color: #fe9703 !important;
+}
+
+.horizontal-line {
+  border-bottom: 1.4px solid var( --bs-gray-200);
+  width: 100%;
+}
+
+.last-section {
+  display: flex;
+  align-items: center;
+}
+
+.last-section h3 {
+  color: var(--bs-success) !important;
+}
+
+.last-section img {
+  display: block;
+  width: 4.5rem!important;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px!important;
+}
+
+@media (max-width:768px){
+
+}
